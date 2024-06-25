@@ -1,0 +1,75 @@
+/* Estilos para el contenedor principal del formulario */
+.login-container {
+  height: 85vh; /* Establece el alto del contenedor para que ocupe toda la pantalla */
+  background-color: #fcfafa; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Estilos para la tarjeta que contiene el formulario */
+.login-card {
+  border-radius: 8px; /* Bordes redondeados */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Sombra */
+  padding: 70px; /* Espaciado interno */
+  background-color: #ffffff; /* Fondo blanco */
+  max-width: 400px; /* Ancho máximo */
+}
+
+
+/* Estilos para los campos de entrada */
+.login-card .form-control {
+  border-radius: 4px; /* Bordes redondeados */
+  border: 1px solid #ccc; /* Borde */
+  padding: 15px; /* Espaciado interno */
+  margin-bottom: 10px; /* Espaciado inferior */
+  
+}   
+
+/* Estilos para el contenedor de la imagen */
+.imagen-container {
+  display: flex; /* Utiliza flexbox para alinear elementos */
+  justify-content: center; /* Centra horizontalmente la imagen */
+  align-items: center; /* Centra verticalmente la imagen */
+  height: 150px; /* Altura del contenedor de la imagen */
+  /* Otros estilos según sea necesario */
+}
+
+/* Estilos para la imagen */
+.imagen-container img {
+  max-width: 50%; /* Ajusta el ancho máximo de la imagen */
+  max-height: 50%; /* Ajusta la altura máxima de la imagen */
+  
+}
+
+.registro-link {
+  color: #000; /* Cambia el color del enlace a negro */
+}
+
+.boton-registro {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+.card {
+  display: -moz-stack;
+}
+
+.image-container {
+  flex: 1;
+}
+
+.image-container img {
+  width: 100%; /* La imagen ocupará el ancho completo de la card */
+  height: auto; /* La altura se ajustará automáticamente para mantener la proporción */
+}
+
+.info-container {
+  flex: 1;
+  padding: 10px;
+  overflow: hidden; /* Oculta cualquier contenido que sobresalga de la card */
+}

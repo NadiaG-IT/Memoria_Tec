@@ -1,0 +1,125 @@
+/* Wizard.css */
+.wizard-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .step-container {
+    margin-bottom: 20px;
+  }
+  
+  .step-header {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .step-content {
+    margin-bottom: 40px;
+  }
+  
+  .step-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px; /* Agrega un margen superior al contenedor del botón */
+  }
+  
+  .button {
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 4px;
+    padding: 70px;
+    cursor: pointer;
+    
+    
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+   
+  }
+  /* Estilos para los botones en todos los steps */
+.wizard-container button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-right: 10px; /* Espacio entre los botones */
+  cursor: pointer;
+}
+
+.wizard-container button:hover {
+  background-color: #0056b3; /* Cambia el color de fondo al pasar el mouse */
+}
+
+/* Estilos para el botón "Anterior" */
+.wizard-container .prev-btn {
+  background-color: #6c757d;
+  color: #fff;
+}
+
+.wizard-container .prev-btn:hover {
+  background-color: #5a6268;
+}
+
+/* Estilos para el botón "Finalizar" */
+.wizard-container .finish-btn {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.wizard-container .finish-btn:hover {
+  background-color: #218838;
+}
+/* Estilos para los botones de radio */
+.radio-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.radio-label {
+  margin-left: 10px;
+  font-size: 16px;
+}
+
+.radio-input {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #007bff; /* Color del borde */
+  border-radius: 50%; /* Forma redondeada */
+  outline: none;
+  margin: 0;
+  cursor: pointer;
+}
+
+.radio-input:checked {
+  background-color: #0a0a0a; /* Color de fondo cuando está seleccionado */
+}
+
+.radio-input:checked::after {
+  content: "";
+  display: block;
+  width: 12px;
+  height: 12px;
+  margin: 3px;
+  border-radius: 50%;
+  background-color: #131313; /* Color del punto central */
+}
+.custom-select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  background-color: #f9f9f9;
+}
+

@@ -1,0 +1,83 @@
+/* Home.css */
+.home-container {
+    display: flex; /* Usa flexbox para el diseño */
+}
+
+.image-container {
+    flex: 1; /* La imagen ocupará la mitad del espacio disponible */
+}
+
+.image-container img {
+    width: 100%; /* La imagen ocupará todo el ancho de la columna */
+    height: auto; /* La altura se ajustará automáticamente para mantener la proporción */
+}
+
+.app-info {
+    flex: 1; /* La información de la aplicación ocupará la otra mitad del espacio disponible */
+    padding: 20px; /* Añade un relleno para separar el contenido del borde */
+    background-color: #0d0d0d; /* Color de fondo suave */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(245, 245, 245, 0.1); /* Sombra suave */
+}
+
+/* Estilo para los elementos h2 dentro de la sección de información de la aplicación */
+.app-info h2 {
+    font-family: "Time new roman", sans-serif; /* Cambia el tipo de letra de los elementos h2 */
+    color: #333; /* Color del texto */
+    margin-bottom: 50px; /* Margen inferior */
+}
+
+/* Estilo para los párrafos dentro de la sección de información de la aplicación */
+.app-info p {
+    font-family: "Arial", sans-serif; /* Cambia el tipo de letra */
+    color: #666; /* Color del texto */
+    line-height: 1.6; /* Altura de línea */
+    margin-bottom: 20px; /* Margen inferior */
+}
+
+/* Estilo para el botón de descarga dentro de la sección de información de la aplicación */
+.app-info .download-button {
+    background-color: #007bff; /* Color de fondo del botón */
+    color: #fff; /* Color del texto */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 10px 20px; /* Relleno */
+    font-size: 12px; /* Tamaño de fuente */
+    cursor: pointer; /* Cursor al pasar por encima */
+    transition: background-color 0.3s ease; /* Transición suave */
+}
+
+/* Estilo para el botón de descarga cuando se pasa el cursor por encima */
+.app-info .download-button:hover {
+    background-color: #0056b3; /* Cambia el color de fondo al pasar el cursor */
+}
+
+/* Estilos existentes */
+
+/* Cambia el color de fondo a negro */
+.home-container {
+    background-color: #000;
+}
+
+/* Cambia el color del texto a blanco */
+.app-info h1,
+.app-info p,
+.app-info .download-button {
+    color: #fff;
+}
+/* Estilos existentes */
+
+/* Centra el texto en el lado derecho */
+.app-info .info-text {
+    text-align: flex;
+  }
+  h1 {
+    font-family: "Segoe UI",'Times New Roman', sans-serif; /* Cambia el tipo de letra */
+    font-size: 2.5rem; /* Tamaño del texto */
+    color: #333; /* Color del texto */
+    text-align: center; /* Centra el texto */
+    margin-bottom: 10px; /* Margen inferior */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Sombra suave */
+  }
+  
+  

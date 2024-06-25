@@ -1,0 +1,41 @@
+.chatbot-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.chat-messages {
+  flex: 1;
+  overflow-y: auto;
+  margin-bottom: 10px;
+}
+
+.chat-input {
+  display: flex;
+}
+
+.chat-input input {
+  flex: 1;
+  padding: 5px;
+}
+
+.chat-input button {
+  padding: 5px 10px;
+}
+
+.message {
+  padding: 5px;
+  margin: 5px 0;
+}
+
+.user-message {
+  background-color: #d1ffd1;
+  align-self: flex-end;
+}
+
+.bot-message {
+  background-color: #f1f1f1;
+  align-self: flex-start;
+}
