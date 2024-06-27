@@ -57,7 +57,7 @@ const Chatbot = ({ formData }) => {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          'Authorization': 'Bearer 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',
+          'Authorization': '',
         },
         body: JSON.stringify({
           model: 'gpt-3.5-turbo-instruct',
